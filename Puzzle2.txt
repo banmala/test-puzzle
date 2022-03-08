@@ -1,0 +1,5 @@
+docker pull banmala/web-api
+docker run -it --rm -p 9005:9005 banmala/web-api
+
+image in => https://hub.docker.com/repository/docker/banmala/web-api
+source code in => https://github.com/banmala/docker-web-api

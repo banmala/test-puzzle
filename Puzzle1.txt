@@ -1,0 +1,21 @@
+Count number of rows in python using "csv" :
+Source Code:
+    import csv
+    filename = "csv-sample.csv"
+    counter = 0
+    with open(filename, "r") as file:
+        read_csv = csv.reader(file)
+        for i in read_csv:
+            counter+=1
+    print("The number of lines is : "+str(counter))
+
+
+
+Count number of rows in python using pandas:
+Source Code:
+    import pandas as pd
+    filename = "csv-sample.csv"
+    data= pd.read_csv(filename)
+    total_lines = (len(data)+1) 
+    print("The number of lines is : "+str(total_lines))
+    #since first line of the csv file is taken as header by pandas. so total lines = length of data + length of header i.e 1 
