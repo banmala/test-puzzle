@@ -1,0 +1,5 @@
+puzzle3.pl is the solution for the given padlock-puzzle1.png done in prolog. The program can be run in prolog and give input command: " place_in(X,Y). " and get answers at zero, one and second place digits sequentially by hitting ";" 
+
+puzzle3.py is the attempt to do the program in python but incomplete due to the less time and efford i could apply on the program this week. 
+
+
